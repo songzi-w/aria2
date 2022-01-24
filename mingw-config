@@ -74,8 +74,8 @@ test -z "$PREFIX" && PREFIX=/usr/local/$HOST
     --with-libssh2 \
     --without-libgcrypt \
     --without-libnettle \
+    --enable-libaria2 \
     --with-cppunit-prefix=$PREFIX \
-    ARIA2_STATIC=yes \
     CPPFLAGS="-I$PREFIX/include" \
     LDFLAGS="-L$PREFIX/lib" \
     PKG_CONFIG="/usr/bin/pkg-config" \
