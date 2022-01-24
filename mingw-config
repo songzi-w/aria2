@@ -76,6 +76,7 @@ test -z "$PREFIX" && PREFIX=/usr/local/$HOST
     --without-libnettle \
     --enable-libaria2 \
     --with-cppunit-prefix=$PREFIX \
+    ARIA2_STATIC=no \
     CPPFLAGS="-I$PREFIX/include" \
     LDFLAGS="-L$PREFIX/lib" \
     PKG_CONFIG="/usr/bin/pkg-config" \
